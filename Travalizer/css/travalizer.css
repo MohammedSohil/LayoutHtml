@@ -1,0 +1,245 @@
+@import url('https://fonts.googleapis.com/css2?family=ADLaM+Display&family=IBM+Plex+Sans+Condensed:ital,wght@0,100;0,200;0,300;1,100;1,200;1,300&family=Inter:wght@100;200;300;400&family=Noto+Sans+Osmanya&family=Poppins:ital,wght@0,100;0,200;1,100&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Tulpen+One&family=Wavefont:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inter';
+
+}
+
+body {
+    background-color: #007549;
+}
+
+
+.container {
+    width: 1140px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul,
+ol,
+li {
+    list-style: none;
+}
+
+.col-1 {
+    width: 8.33%;
+}
+
+.col-2 {
+    width: 16.66%;
+
+
+
+}
+
+.col-3 {
+    width: 25%;
+
+}
+
+.col-4 {
+    width: 33.33%;
+
+}
+
+.col-5 {
+    width: 41.66%;
+}
+
+.col-6 {
+    width: 50%;
+
+}
+
+.col-7 {
+    width: 58.33%;
+}
+
+.col-8 {
+    width: 66.66%;
+}
+
+.col-9 {
+    width: 75%;
+}
+
+.col-10 {
+    width: 83.33%;
+}
+
+.col-11 {
+    width: 91.66%;
+}
+
+.col-12 {
+    width: 100%;
+}
+
+[class*="col-"] {
+    padding: 0 15px;
+    float: left;
+}
+
+.clearfix {
+    overflow: auto;
+}
+
+
+.row {
+    margin: 0 -15px;
+}
+
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+
+}
+
+.img-fluid {
+    display: block;
+    width: 77%;
+    margin: auto;
+}
+
+.no-space {
+    padding: 0;
+}
+
+.sec-1 {
+    padding: 100px 0;
+}
+
+.artifiacl {
+    background-color: #FFFFFF;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    padding: 50px 54px;
+
+}
+
+.Intelligence {
+    color: #355B3E;
+    font-size: 24px;
+    line-height: 150%;
+    margin-top: 50px;
+
+
+}
+
+.welcome-back {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 100%;
+    margin-top: 18px;
+}
+
+.label-input {
+    margin-top: 30px;
+}
+
+label {
+    color: #2F3D4C;
+    font-size: 16px;
+    padding: 10px;
+    margin-bottom: 10px;
+
+}
+
+.label-input input {
+    width: 100%;
+    border: 1px solid #B8D6BF;
+    border-radius: 8px;
+    padding: 21px 22px;
+    margin-top: 10px;
+    outline: none;
+    position: relative;
+
+}
+
+.label-input {
+    position: relative;
+}
+
+
+::placeholder {
+    color: #355B3E;
+}
+
+.password {
+    color: #007549;
+}
+
+.eyes {
+    position: absolute;
+    top: 52%;
+    right: 4%;
+}
+
+.check-box {
+    margin-top: 20px;
+}
+
+.check-box a {
+    color: #355B3E;
+    padding: 0 4px;
+    font-size: 16px;
+}
+
+.forget-pass {
+    text-decoration-line: underline;
+    float: right;
+}
+
+.login-sign-up {
+    margin-top: 40px;
+}
+
+.login {
+    background-color: #029664;
+    border-radius: 8px;
+    color: #fff;
+    padding: 13px 61px;
+}
+
+.sign {
+    border: 1px solid #029664;
+    color: #029664;
+    padding: 13px 70px;
+    border-radius: 8px;
+    margin-right: 10px;
+    margin-left: 35px;
+}
+
+.or-with {
+    padding: 26px 9px;
+    margin-top: 20px;
+}
+
+.or-with a {
+    color: #007549;
+    font-size: 16px;
+}
+
+.or-with .face-link-goog {
+    font-size: 16px;
+    color: #355B3E;
+    font-weight: 550;
+    padding: 0 13px;
+
+}
+
+.car-img {
+    padding: 250px 54px;
+    background-color: #F5DBC4;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
