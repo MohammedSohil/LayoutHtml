@@ -1,0 +1,568 @@
+@import url('https://fonts.googleapis.com/css2?family=ADLaM+Display&family=Noto+Sans+Osmanya&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Tulpen+One&family=Wavefont:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+.container {
+    width: 1140px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+ul,
+ol,
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.clearfix {
+    overflow: auto;
+}
+
+.col-1 {
+    width: 8.33%;
+}
+
+.col-2 {
+    width: 16.66%;
+
+
+
+}
+
+.col-3 {
+    width: 25%;
+
+}
+
+.col-4 {
+    width: 33.33%;
+
+}
+
+.col-5 {
+    width: 41.66%;
+}
+
+.col-6 {
+    width: 50%;
+
+}
+
+.col-7 {
+    width: 58.33%;
+}
+
+.col-8 {
+    width: 66.66%;
+}
+
+.col-9 {
+    width: 75%;
+}
+
+.col-10 {
+    width: 83.33%;
+}
+
+.col-11 {
+    width: 91.66%;
+}
+
+.col-12 {
+    width: 100%;
+}
+
+[class*="col-"] {
+    padding: 0 15px;
+    float: left;
+}
+
+.logo {
+    float: left;
+    padding: 22px 0;
+}
+
+.menu {
+    float: right;
+
+}
+
+.menu li {
+    display: inline-block;
+}
+
+.menu li a {
+    display: inline-block;
+    padding: 22px 22px;
+
+
+    color: #222222;
+}
+
+.menu li .btn {
+    background-color: #222222;
+    color: rgb(255, 255, 255);
+    padding: 10px 15px;
+    border-radius: 4px;
+}
+
+.hero {
+    padding: 100px 0;
+    text-align: center;
+}
+
+.hero h1 {
+    color: #1D2130;
+    margin-bottom: 20px;
+    font-size: 40px;
+}
+
+.hero p {
+    color: #1D2130;
+    font-size: 20px;
+    margin-bottom: 20px;
+
+}
+
+.hero .form-input input {
+    padding: 16px 15px;
+    border: 1px solid #DDDD;
+    display: inline-block;
+    border-radius: 10px;
+    width: 100%;
+
+}
+
+.hero .form-input {
+    width: 40%;
+    position: relative;
+    margin: 0 auto 50px;
+}
+
+.hero .form-input button {
+    background-color: #1D2130;
+    color: #fff;
+    padding: 15px 15px;
+    border: 1px solid #222222;
+    border-radius: 10px;
+    position: absolute;
+    top: 1px;
+    right: 1px;
+    display: inline-block;
+
+}
+
+
+
+.img-fluid {
+    max-width: 100%;
+    display: block;
+    margin: 0 auto;
+}
+
+.sec-1 {
+    padding: 100px 0;
+}
+
+.heading-h1 {
+    margin-top: 50px;
+    text-align: center;
+}
+
+.heading-h1 h1 {
+    font-size: 24px;
+    color: #0000ff;
+
+}
+
+.heading-h1 p {
+    font-size: 45px;
+    font-weight: bold;
+    padding: 20px 0px;
+}
+
+.row {
+    overflow: auto;
+    margin: 0 -15px;
+
+}
+
+
+
+.col-4 h3 {
+    font-size: 25px;
+    margin-top: 15px;
+
+
+}
+
+.col-4 p {
+    font-size: 16px;
+    margin-top: 12px;
+}
+
+
+.sec-1-color {
+    background-color: #E0E4FC;
+    border-radius: 24px;
+    padding: 50px 72px;
+    margin-bottom: 60px;
+
+}
+
+
+
+
+.col-4 .full-time-icon {
+    color: #6B7CFF;
+    font-size: 30px;
+}
+
+
+.sec-2 {
+    padding: 100px 0;
+}
+
+.col-6 .heading-h4 {
+    color: #0000ff;
+    margin-bottom: 30px;
+}
+
+.col-6 .heading-2 {
+    font-weight: bold;
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+
+.col-6 p {
+    margin-top: 35px;
+    font-size: 15px;
+
+}
+
+.item-list li {
+    margin-bottom: 30px;
+}
+
+.item-list .icon {
+    background-color: #FFACAC;
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    line-height: 40px;
+    text-align: center;
+    float: left;
+    margin-right: 15px;
+
+}
+
+.item-list .icon i {
+    font-size: 20px;
+}
+
+.item-list .icon-desc {
+    font-weight: 400;
+    font-size: 15px;
+    float: left;
+}
+
+
+
+
+
+.sec-3 {
+    background-color: #00bfff;
+    padding: 100px 0;
+}
+
+.img-sec {
+    max-width: 100%;
+}
+
+.sec-3 h5 {
+    margin-top: 80px;
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+
+.col-6 button {
+    background-color: #1D2130;
+    color: #fff;
+    border-radius: 10px;
+    padding: 12px 36px;
+    margin-top: 33px;
+    border: 1px solid #222222;
+}
+
+.sec-4 {
+    padding: 100px 0px;
+
+}
+
+.sec-4 .logo-ipsum {
+    float: right;
+    margin-right: 25px;
+
+}
+
+.sec-5 {
+    padding: 100px 0;
+}
+
+.sec-5 .heading-2 {
+    color: blue;
+    margin-bottom: 30px;
+    font-size: 24px;
+}
+
+.sec-5 h2 {
+    margin-top: 20px;
+    font-size: 48px;
+
+}
+
+.sec-5 .lorem-p {
+    font-size: 16px;
+}
+
+.sales-tracking li {
+    margin-bottom: 20px;
+}
+
+.sales-tracking p {
+    font-size: 16px;
+    margin-top: 20px;
+}
+
+.sales-tracking .dicover-icon {
+    width: 48px;
+    height: 48px;
+    float: left;
+    background-color: rgb(234, 220, 220);
+    border-radius: 50%;
+    text-align: center;
+    line-height: 48px;
+}
+
+.sales-tracking .dicover-icon i {
+    font-size: 22px;
+
+}
+
+.sales-tracking .headm {
+    float: left;
+    margin-left: 15px;
+}
+
+.sales-tracking .track {
+    font-size: 24px;
+}
+
+.sales-tracking .track-p {
+    font-size: 18px;
+}
+
+.sec-6 {
+    padding: 100px 0;
+}
+
+.sec-6 .features {
+    text-align: center;
+    font-size: 48px;
+    margin-bottom: 60px;
+
+}
+
+.sec-6-color {
+    background-color: #D798E126;
+    border-radius: 24px;
+    padding: 64px 57px;
+    margin-bottom: 60px;
+}
+
+.features-icon {
+    font-size: 40px;
+    color: #6B7CFF;
+}
+
+.sec-6 h2 {
+    font-size: 30px;
+    font-weight: 700;
+    margin-top: 15px;
+}
+
+.advanced-p {
+    font-size: 18px;
+    font-weight: 400;
+
+}
+
+.border-icon {
+    border-right: 2px solid;
+    border-color: #CDC7D2;
+}
+
+.sec-7 {
+    padding: 50px 0;
+}
+
+.the-stunning {
+    text-align: center;
+    margin-bottom: 70px;
+}
+
+.customer {
+    font-size: 48px;
+    font-weight: 700;
+}
+
+.ipsum-dolar {
+    font-size: 18px;
+    font-weight: 600;
+    text-align: center;
+    line-height: 180%;
+
+}
+
+.border-round {
+    border: 2px solid #6199ED42;
+    border-radius: 24px;
+    padding: 40px 40px;
+
+
+}
+
+.border-img {
+    margin-top: 20px;
+}
+
+.Ron {
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.border-text {
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.sec-8 {
+    padding: 100px 0;
+}
+
+.grow-your {
+    text-align: center;
+}
+
+.with-us {
+    font-size: 56px;
+    font-weight: 700;
+
+}
+
+.sit-amet {
+    font-size: 16px;
+    font-weight: 400;
+    margin-top: 10px;
+}
+
+.grow-your button {
+    border: 1px solid;
+    background-color: #1D2130;
+    color: #FFF;
+    padding: 16px 40px;
+    margin-top: 30px;
+    border-radius: 12px;
+}
+
+footer {
+    background-color: #24262b;
+    padding: 70px 0;
+}
+
+.company-foot {
+    color: #fff;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.foot-menu .foot-li {
+    padding: 10px 0;
+}
+
+.foot-menu .foot-li a {
+    color: rgb(227, 218, 218);
+}
+
+
+
+.Subscribe {
+    color: #fff;
+    font-size: 18px;
+    margin-top: 52px;
+}
+
+.input-email input {
+    margin-top: 14px;
+    width: 100%;
+    background-color: #2B2E3C;
+    padding: 11px 15px;
+    border-radius: 6px;
+    border-style: none;
+}
+
+
+
+.input-email {
+    position: relative;
+    margin: 0 auto 50px;
+}
+
+.input-email button {
+    background-color: #fff;
+    color: #1D2130;
+    padding: 11px 15px;
+    border-radius: 6px;
+    border-style: none;
+    position: absolute;
+    top: 14px;
+    right: 1px;
+
+}
+
+.hori{
+    margin-top: 50px;
+    color: #888888;
+
+}
+
+.copy-right{
+    margin-top: 30px;
+    text-align: center;
+
+}
+
+.fins{
+    font-size: 15px;
+    font-weight: 400;
+    color: #888888;
+  
+
+
+}
+.fa-brands{
+    font-size: 30px;
+    margin-left:  15px;
+    margin-right: 15px;
+    color: #888888;
+
+}

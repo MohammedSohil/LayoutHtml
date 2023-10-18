@@ -1,0 +1,244 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+
+
+}
+
+body {
+    background-color: #F0F5F5;
+
+}
+
+section {
+    padding: 100px 0;
+}
+
+.container {
+    width: 1140px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.clearfix {
+    overflow: auto;
+}
+
+.col-1 {
+    width: 8.33%;
+}
+
+.col-2 {
+    width: 16.66%;
+
+
+
+}
+
+.col-3 {
+    width: 25%;
+
+}
+
+.col-4 {
+    width: 33.33%;
+
+}
+
+.col-5 {
+    width: 41.66%;
+}
+
+.col-6 {
+    width: 50%;
+
+}
+
+.col-7 {
+    width: 58.33%;
+}
+
+.col-8 {
+    width: 66.66%;
+}
+
+.col-9 {
+    width: 75%;
+}
+
+.col-10 {
+    width: 83.33%;
+}
+
+.col-11 {
+    width: 91.66%;
+}
+
+.col-12 {
+    width: 100%;
+}
+
+[class*="col-"] {
+    padding: 0 15px;
+    float: left;
+}
+
+
+.row {
+    margin: 0 -15px;
+}
+
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+
+}
+
+.back {
+    background-color: #2DCFC1;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    padding: 120px 114px;
+    text-align: center;
+
+
+}
+
+
+
+.instant {
+    margin-top: 20px;
+    text-align: center;
+
+}
+
+
+.support {
+    font-size: 31px;
+    color: #fff;
+
+}
+
+.receive {
+    margin-top: 20px;
+    color: #fff;
+    font-weight: 400;
+    font-size: 18px;
+
+}
+
+.icon {
+    text-align: right;
+    margin-bottom: 20px;
+}
+
+.colclass {
+    padding: 0px;
+}
+
+.vibe-color {
+    background-color: #FFF;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    padding: 56px 50px;
+}
+
+
+
+.main {
+    margin-top: 50px;
+}
+
+.make-order {
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.access-p {
+    color: #B6B8C3;
+    font-size: 16px;
+    font-weight: 400;
+    padding-top: 30px;
+    border-bottom: 1px dashed #B6B8C3;
+    padding-bottom: 20px;
+}
+
+
+
+.label-input-main {
+    margin-top: 43px;
+}
+
+.label {
+    color: #6F7D97;
+    font-size: 19px;
+}
+
+
+
+.input-place {
+    padding: 21px 22px;
+    border-radius: 8px;
+    border: 1px solid #CED4DA;
+    width: 100%;
+    margin-top: 10px;
+}
+
+.check-span-main {
+    margin-top: 30px;
+}
+
+.one-checkbox {
+    float: left;
+    width: 5%;
+}
+
+.text-color {
+    width: 94%;
+    float: left;
+}
+
+.read {
+    font-size: 14px;
+    color: #5E6F88;
+}
+
+.green {
+    color: #2DCFC1;
+    font-size: 14px;
+}
+
+.butt {
+    margin-bottom: 10px;
+}
+
+button {
+    background-color: #2DCFC1;
+    color: #fff;
+    padding: 21px 22px;
+    margin-top: 17px;
+    font-size: 16px;
+    border-radius: 8px;
+    width: 100%;
+    border: 1px;
+    display: inline-block;
+
+
+}
+
+.have-refferal {
+    text-align: right;
+}
+a{
+    text-decoration: none;
+}
+
+.referral {
+    color: #2DCFC1;
+    font-size: 14px;
+}
